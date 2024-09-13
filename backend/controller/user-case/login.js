@@ -8,7 +8,7 @@ exports.login = (req, res) => {
     }
   
     // Simulate checking credentials (replace this with actual logic)
-    if (email === 'user@example.com' && password === 'password123') {
+    if (email === 'user@example.com' && password === '123') {
       // Authentication successful
       return res.status(200).json({ message: 'Login correcto!' });
     } else {
